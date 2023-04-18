@@ -1,0 +1,5 @@
+pmd.err
+pmd.cache
+*.txt
+**/*.wsout
+**/lib/**
