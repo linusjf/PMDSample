@@ -1,4 +1,4 @@
-pmd.err
+pmd.errors
 pmd.cache
 *.txt
 **/*.wsout
