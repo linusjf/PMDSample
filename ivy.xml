@@ -4,16 +4,16 @@
   <dependencies>
     <!-- https://mvnrepository.com/artifact/net.sourceforge.pmd/pmd-core -->
     <dependency org="net.sourceforge.pmd" name="pmd-core"
-    rev="7.0.0-rc1" />
+    rev="7.0.0-SNAPSHOT" />
     <dependency org="net.sourceforge.pmd" name="pmd-java"
-    rev="7.0.0-rc1" />
+    rev="7.0.0-SNAPSHOT" />
     <dependency org="net.sourceforge.pmd" name="pmd-xml"
-    rev="7.0.0-rc1" />
+    rev="7.0.0-SNAPSHOT" />
     <dependency org="net.sourceforge.pmd" name="pmd-html"
-    rev="7.0.0-rc1" />
+    rev="7.0.0-SNAPSHOT" />
     <dependency org="net.sourceforge.pmd" name="pmd-jsp"
-    rev="7.0.0-rc1" />
+    rev="7.0.0-SNAPSHOT" />
     <dependency org="net.sourceforge.pmd" name="pmd-cli"
-    rev="7.0.0-rc1" />
+    rev="7.0.0-SNAPSHOT" />
   </dependencies>
 </ivy-module>

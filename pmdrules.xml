@@ -14,7 +14,7 @@ xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 https://pmd.sourcef
   <rule ref="category/java/bestpractices.xml/SystemPrintln">
     <properties>
       <property name="violationSuppressXPath"
-      value="//MethodDeclaration[contains(@MethodName, 'main')] and ./ancestor::MethodDeclaration[contains(@Static, 'true')]" />
+      value="./ancestor::MethodDeclaration[@MainMethod = 'true']" />
     </properties>
   </rule>
   <rule ref="category/java/bestpractices.xml/AbstractClassWithoutAbstractMethod" />

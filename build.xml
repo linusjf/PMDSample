@@ -20,7 +20,7 @@ default="main" basedir=".">
       <auxclasspath>
         <pathelement path="${basedir}" />
       </auxclasspath>
-      <formatter type="text" toFile="pmd.err" toConsole="true">
+      <formatter type="text" toFile="pmd.errors" toConsole="true">
       </formatter>
     </pmd>
     <echo message="${pmd.errCount} violations found." />
